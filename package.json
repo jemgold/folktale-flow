@@ -1,5 +1,5 @@
 {
-  "name": "folktale-flow",
+  "name": "folktale-flow-decls",
   "version": "0.1.0",
   "description": "[WIP] Flowtype declarations for Folktale",
   "main": "data.task.decls.js",
