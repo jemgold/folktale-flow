@@ -1,0 +1,25 @@
+{
+  "name": "folktale-flow",
+  "version": "0.1.0",
+  "description": "[WIP] Flowtype declarations for Folktale",
+  "main": "data.task.decls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongold/folktale-flow.git"
+  },
+  "keywords": [
+    "data.task",
+    "folktale",
+    "flow",
+    "flowtype"
+  ],
+  "author": "Jon Gold <hello@designedbygold.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jongold/folktale-flow/issues"
+  },
+  "homepage": "https://github.com/jongold/folktale-flow#readme"
+}
