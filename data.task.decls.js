@@ -9,7 +9,7 @@ declare module 'data.task' {
     // ap<Y>@Task(α, β → γ) => Task(α, β) → Task(α, γ)
     orElse<Y>(f: (v: A) => ITask<Y, B>): ITask<Y, B>;
     fold<Y, D>(f: (v: A) => Y, g: (v: B) => Y): ITask<Y, B>;
-    cata<Y, D>(patterns: {| Rejected: (v: A) => Y, Resolved: (v: B) => Y |}): Task<D, Y>;
+    cata<Y>(patterns: {| Rejected: (v: A) => Y, Resolved: (v: B) => Y |}): Task<B, Y>;
     swap(): Task<B, A>;
     bimap<Y, D>(f: (v: A) => Y, g: (v: B) => D): ITask<Y, D>;
     rejectedMap<Y>(f: (v: A) => Y): ITask<Y, B>;
